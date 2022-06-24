@@ -12,6 +12,7 @@ import (
 var wg sync.WaitGroup
 var mut sync.Mutex
 
+// time go run main.go facebook.com google.com instagram.com gmail.com
 func main() {
 
 	if len(os.Args) < 2 {
